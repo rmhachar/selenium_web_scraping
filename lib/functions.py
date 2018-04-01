@@ -10,6 +10,10 @@ import re
 import pandas as pd
 import numpy as np
 
+# Load Firefox webdriver
+driver = webdriver.Firefox(executable_path='/Users/richardhachar/Downloads/geckodriver')
+    # you'll have to download geckodriver and route the path towards its location
+
 def get_columns(url):
   # go to the page
   driver.get(url)
@@ -33,7 +37,6 @@ def get_columns(url):
   return df
   
 def get_info(url):
-  
   # go to web page
   driver.get(url)
   
