@@ -1,0 +1,6 @@
+ticker,url
+AAPL,https://finance.yahoo.com/quote/AAPL?p=AAPL
+AMZN,https://finance.yahoo.com/quote/AMZN?p=AMZN
+FB,https://finance.yahoo.com/quote/FB?p=FB
+TWTR,https://finance.yahoo.com/quote/TWTR?p=TWTR
+MSFT,https://finance.yahoo.com/quote/MSFT?p=MSFT
